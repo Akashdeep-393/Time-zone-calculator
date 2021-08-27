@@ -1,0 +1,39 @@
+body {
+  font-family: 'Baloo 2', sans-serif;
+  background-image: url("time.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1, h3, #result, #clarification {
+  border: 2px solid black;
+  vertical-align: middle;
+  background-color: ghostwhite;
+}
+
+#result, #clarification {
+  margin: 5px auto 5px auto;
+}
+
+header {
+  height: 100px;
+}
+
+h3 {
+  width: 75%;
+}
+
+header h1, h3, #calculator, #first, #second, button {
+  margin: 10px auto 10px auto;
+  align-items: center;
+}
+
+header h1, h3, #calculator, #first, #second, button, #result, #clarification {
+  text-align: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}

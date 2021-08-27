@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&amp;display=swap" rel="stylesheet">
+  <script src="index.js"></script>
+  <title>
+    CP3
+  </title>
+</head>
+<body>
+  <header>
+    <h1>
+      Time difference Calculator
+    </h1>
+  </header>
+  <h3>
+    Enter two US zipcodes below and we shall give you the difference in solar time
+    between these two locations. If the second zipcode is not entered we shall give you the
+    timezone of the first location (which is the time difference with Greenwich, UK).
+  </h3>
+  <section id="calculator">
+    <section><textarea id="first"></textarea></section>
+    <section><textarea id="second"></textarea></section>
+    <section><button>Calculate</button></section>
+  </section>
+  <section id="result" class="hidden">
+    <h5></h5>
+    <p class="hidden">The timezones shown are based on solar time and may not correspond
+      to official time because of the political nature of time zone borders.
+    </p>
+  </section>
+</body>
